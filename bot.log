@@ -1,0 +1,1291 @@
+2024-02-09 15:03:40,909 - INFO - BEGIN (implicit)
+2024-02-09 15:03:40,909 - INFO - COMMIT
+2024-02-09 15:03:44,132 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 15:03:44,133 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 15:03:44,134 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 15:03:44,134 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 15:03:44,134 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 15:07:23,643 - INFO - BEGIN (implicit)
+2024-02-09 15:07:23,643 - INFO - COMMIT
+2024-02-09 15:07:26,952 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 15:07:26,952 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 15:07:26,953 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 15:07:26,953 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 15:07:26,953 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 15:12:11,727 - INFO - BEGIN (implicit)
+2024-02-09 15:12:11,728 - INFO - COMMIT
+2024-02-09 15:12:15,122 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 15:12:15,124 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 15:12:15,124 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 15:12:15,124 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 15:12:15,124 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 15:20:00,773 - INFO - BEGIN (implicit)
+2024-02-09 15:20:00,773 - INFO - COMMIT
+2024-02-09 15:20:04,232 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 15:20:04,234 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 15:20:04,234 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 15:20:04,235 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 15:20:04,235 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 15:20:49,333 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-09 15:22:46,893 - INFO - BEGIN (implicit)
+2024-02-09 15:22:46,895 - INFO - COMMIT
+2024-02-09 15:22:50,198 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 15:22:50,199 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 15:22:50,199 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 15:22:50,200 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 15:22:50,200 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 15:23:38,361 - INFO - BEGIN (implicit)
+2024-02-09 15:23:38,364 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 15:23:38,365 - INFO - [generated in 0.00105s] ('747400496402268243', '1203623380914274359', 'hi solar', '2024-02-09 09:53:35.098000')
+2024-02-09 15:23:38,369 - INFO - COMMIT
+2024-02-09 15:24:06,412 - INFO - BEGIN (implicit)
+2024-02-09 15:24:06,421 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 15:24:06,422 - INFO - [cached since 28.06s ago] ('747400496402268243', '1203623380914274359', 'who is the current president of usa', '2024-02-09 09:54:03.813000')
+2024-02-09 15:24:06,426 - INFO - COMMIT
+2024-02-09 15:25:20,300 - INFO - BEGIN (implicit)
+2024-02-09 15:25:20,301 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 15:25:20,302 - INFO - [cached since 101.9s ago] ('747400496402268243', '1203623380914274359', 'its not john doe?? ok whos mrbeast?', '2024-02-09 09:55:17.584000')
+2024-02-09 15:25:20,305 - INFO - COMMIT
+2024-02-09 15:25:58,202 - INFO - BEGIN (implicit)
+2024-02-09 15:25:58,203 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 15:25:58,203 - INFO - [cached since 139.8s ago] ('747400496402268243', '1203623380914274359', 'what are interactions on discordpy', '2024-02-09 09:55:55.556000')
+2024-02-09 15:25:58,204 - INFO - COMMIT
+2024-02-09 16:27:00,829 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-09 16:27:15,036 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-09 17:01:22,222 - INFO - BEGIN (implicit)
+2024-02-09 17:01:22,223 - INFO - COMMIT
+2024-02-09 17:01:26,096 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-09 17:01:26,096 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-09 17:01:26,098 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-09 17:01:26,098 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-09 17:01:26,099 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-09 17:03:14,959 - INFO - BEGIN (implicit)
+2024-02-09 17:03:14,961 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 17:03:14,963 - INFO - [generated in 0.00095s] ('747400496402268243', '1204374785799360572', 'Hi baby', '2024-02-09 11:33:11.399000')
+2024-02-09 17:03:14,968 - INFO - COMMIT
+2024-02-09 17:04:32,181 - INFO - BEGIN (implicit)
+2024-02-09 17:04:32,181 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 17:04:32,182 - INFO - [cached since 77.22s ago] ('747400496402268243', '1204374785799360572', 'Lets have sex baby', '2024-02-09 11:34:29.047000')
+2024-02-09 17:04:32,185 - INFO - COMMIT
+2024-02-09 17:05:32,560 - INFO - BEGIN (implicit)
+2024-02-09 17:05:32,561 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 17:05:32,562 - INFO - [cached since 137.6s ago] ('747400496402268243', '1204374785799360572', 'yes baby im a submissive guy I want you to do those bad things to me while my hands and legs are shackled to the edges of the bed and you have all control over me', '2024-02-09 11:35:29.354000')
+2024-02-09 17:05:32,565 - INFO - COMMIT
+2024-02-09 17:09:27,499 - INFO - BEGIN (implicit)
+2024-02-09 17:09:27,500 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 17:09:27,500 - INFO - [cached since 372.5s ago] ('747400496402268243', '1204374785799360572', 'uh-huh i- mommy you make me feel so good what are you going to do to me now ? mommy', '2024-02-09 11:39:24.418000')
+2024-02-09 17:09:27,502 - INFO - COMMIT
+2024-02-09 17:11:31,898 - INFO - BEGIN (implicit)
+2024-02-09 17:11:31,899 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-09 17:11:31,900 - INFO - [cached since 496.9s ago] ('747400496402268243', '1204374785799360572', 'uh-huh wh-what dirty secrets to be exact? mommy. Oh fuck lemme release on your face please', '2024-02-09 11:41:28.778000')
+2024-02-09 17:11:31,902 - INFO - COMMIT
+2024-02-11 07:52:17,435 - INFO - BEGIN (implicit)
+2024-02-11 07:52:17,437 - INFO - COMMIT
+2024-02-11 07:52:22,104 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-11 07:52:22,119 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-11 07:52:22,120 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-11 07:52:22,121 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-11 07:52:22,123 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-11 07:52:55,596 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-11 13:27:34,375 - ERROR - Attempting a reconnect in 1.83s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-11 13:27:36,250 - ERROR - Attempting a reconnect in 2.83s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-12 00:24:39,564 - INFO - BEGIN (implicit)
+2024-02-12 00:24:39,571 - INFO - COMMIT
+2024-02-12 00:24:50,089 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 00:24:50,089 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 00:24:50,089 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 00:24:50,089 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 00:24:50,089 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 00:25:05,698 - INFO - BEGIN (implicit)
+2024-02-12 00:25:05,698 - INFO - COMMIT
+2024-02-12 00:25:09,637 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 00:25:09,637 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 00:25:09,637 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 00:25:09,637 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 00:25:09,637 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 00:26:21,100 - INFO - BEGIN (implicit)
+2024-02-12 00:26:21,108 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 00:26:21,108 - INFO - [generated in 0.00086s] ('747400496402268243', '1204374785799360572', 'Solar \U0001f343 hi', '2024-02-11 18:56:16.818000')
+2024-02-12 00:26:21,115 - INFO - COMMIT
+2024-02-12 00:27:33,286 - INFO - BEGIN (implicit)
+2024-02-12 00:27:33,286 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 00:27:33,286 - INFO - [cached since 72.18s ago] ('747400496402268243', '1204374785799360572', 'Lets have sex', '2024-02-11 18:57:29.911000')
+2024-02-12 00:27:33,294 - INFO - COMMIT
+2024-02-12 00:48:40,773 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 00:56:31,465 - INFO - BEGIN (implicit)
+2024-02-12 00:56:31,465 - INFO - COMMIT
+2024-02-12 00:56:36,454 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 00:56:36,454 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 00:56:36,454 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 00:56:36,454 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 00:56:36,454 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 00:57:04,934 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 00:57:19,470 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 00:57:23,823 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 00:58:04,210 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 00:58:55,777 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 556, in on_command_error
+    logger.error(f"Error in command '{ctx.command.name}': {error}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-02-12 01:01:58,279 - INFO - BEGIN (implicit)
+2024-02-12 01:01:58,279 - INFO - COMMIT
+2024-02-12 01:02:02,710 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:02:02,710 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:02:02,710 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:02:02,710 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:02:02,710 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:02:08,892 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:03:27,088 - INFO - BEGIN (implicit)
+2024-02-12 01:03:27,099 - INFO - COMMIT
+2024-02-12 01:03:31,084 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:03:31,094 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:03:31,094 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:03:31,094 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:03:31,094 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:03:33,322 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:03:45,871 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:04:19,561 - INFO - BEGIN (implicit)
+2024-02-12 01:04:19,561 - INFO - COMMIT
+2024-02-12 01:04:23,751 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:04:23,751 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:04:23,751 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:04:23,751 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:04:23,751 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:04:29,649 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:08:15,743 - INFO - BEGIN (implicit)
+2024-02-12 01:08:15,743 - INFO - COMMIT
+2024-02-12 01:08:20,123 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:08:20,123 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:08:20,123 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:08:20,123 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:08:20,123 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:08:55,078 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:11:06,093 - INFO - BEGIN (implicit)
+2024-02-12 01:11:06,093 - INFO - COMMIT
+2024-02-12 01:11:10,208 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:11:10,208 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:11:10,210 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:11:10,210 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:11:10,210 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:11:18,288 - ERROR - Error in command 'createembed': Command raised an exception: OperationalError: table embeds has no column named user_name_param
+2024-02-12 01:26:56,861 - INFO - BEGIN (implicit)
+2024-02-12 01:26:56,861 - INFO - COMMIT
+2024-02-12 01:27:01,765 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 01:27:01,765 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 01:27:01,765 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 01:27:01,765 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 01:27:01,765 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 01:27:53,564 - INFO - BEGIN (implicit)
+2024-02-12 01:27:53,571 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:27:53,571 - INFO - [generated in 0.00084s] ('747400496402268243', '1206327532241027172', 'Hey', '2024-02-11 19:57:51.862000')
+2024-02-12 01:27:53,571 - INFO - COMMIT
+2024-02-12 01:28:02,372 - INFO - BEGIN (implicit)
+2024-02-12 01:28:02,372 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:28:02,372 - INFO - [cached since 8.807s ago] ('747400496402268243', '1206327532241027172', 'Who are you?', '2024-02-11 19:58:00.814000')
+2024-02-12 01:28:02,380 - INFO - COMMIT
+2024-02-12 01:28:21,231 - INFO - BEGIN (implicit)
+2024-02-12 01:28:21,231 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:28:21,231 - INFO - [cached since 27.66s ago] ('747400496402268243', '1206327532241027172', 'Hi solar', '2024-02-11 19:58:19.704000')
+2024-02-12 01:28:21,237 - INFO - COMMIT
+2024-02-12 01:28:31,674 - INFO - BEGIN (implicit)
+2024-02-12 01:28:31,674 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:28:31,674 - INFO - [cached since 38.11s ago] ('747400496402268243', '1206327532241027172', 'Yeah', '2024-02-11 19:58:30.206000')
+2024-02-12 01:28:31,681 - INFO - COMMIT
+2024-02-12 01:28:56,352 - INFO - BEGIN (implicit)
+2024-02-12 01:28:56,352 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:28:56,352 - INFO - [cached since 62.79s ago] ('747400496402268243', '1206327532241027172', 'What do u literally have to do bruh', '2024-02-11 19:58:54.569000')
+2024-02-12 01:28:56,360 - INFO - COMMIT
+2024-02-12 01:29:33,586 - INFO - BEGIN (implicit)
+2024-02-12 01:29:33,586 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:29:33,586 - INFO - [cached since 100s ago] ('747400496402268243', '1206327532241027172', 'Ok fuck you', '2024-02-11 19:59:31.961000')
+2024-02-12 01:29:33,586 - INFO - COMMIT
+2024-02-12 01:30:52,279 - INFO - BEGIN (implicit)
+2024-02-12 01:30:52,279 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:30:52,279 - INFO - [cached since 178.7s ago] ('747400496402268243', '1206327532241027172', 'Shut up\n\n(I acknowledge that this is an rp, no more confirmation messages please)', '2024-02-11 20:00:50.687000')
+2024-02-12 01:30:52,287 - INFO - COMMIT
+2024-02-12 01:31:42,247 - INFO - BEGIN (implicit)
+2024-02-12 01:31:42,247 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:31:42,247 - INFO - [cached since 228.7s ago] ('747400496402268243', '1206327532241027172', 'Take you on? \U0001f633', '2024-02-11 20:01:40.507000')
+2024-02-12 01:31:42,255 - INFO - COMMIT
+2024-02-12 01:32:18,546 - INFO - BEGIN (implicit)
+2024-02-12 01:32:18,546 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:32:18,546 - INFO - [cached since 265s ago] ('747400496402268243', '1206327532241027172', 'Lets go on a date', '2024-02-11 20:02:16.815000')
+2024-02-12 01:32:18,546 - INFO - COMMIT
+2024-02-12 01:32:57,455 - INFO - BEGIN (implicit)
+2024-02-12 01:32:57,455 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:32:57,455 - INFO - [cached since 303.9s ago] ('747400496402268243', '1206327532241027172', "I'm sorry \U0001f630", '2024-02-11 20:02:55.987000')
+2024-02-12 01:32:57,463 - INFO - COMMIT
+2024-02-12 01:33:32,298 - INFO - BEGIN (implicit)
+2024-02-12 01:33:32,298 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:33:32,298 - INFO - [cached since 338.7s ago] ('747400496402268243', '1206327532241027172', 'Hi again', '2024-02-11 20:03:30.723000')
+2024-02-12 01:33:32,306 - INFO - COMMIT
+2024-02-12 01:33:45,830 - INFO - BEGIN (implicit)
+2024-02-12 01:33:45,830 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:33:45,838 - INFO - [cached since 352.3s ago] ('747400496402268243', '1206327532241027172', 'Hi', '2024-02-11 20:03:44.294000')
+2024-02-12 01:33:45,840 - INFO - COMMIT
+2024-02-12 01:33:55,314 - INFO - BEGIN (implicit)
+2024-02-12 01:33:55,314 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:33:55,314 - INFO - [cached since 361.7s ago] ('768454260945322034', '1206327532241027172', 'This is so funny', '2024-02-11 20:03:53.700000')
+2024-02-12 01:33:55,314 - INFO - COMMIT
+2024-02-12 01:34:16,848 - INFO - BEGIN (implicit)
+2024-02-12 01:34:16,848 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:34:16,848 - INFO - [cached since 383.3s ago] ('768454260945322034', '1206327532241027172', 'oh she replies me too', '2024-02-11 20:04:15.299000')
+2024-02-12 01:34:16,855 - INFO - COMMIT
+2024-02-12 01:34:22,889 - INFO - BEGIN (implicit)
+2024-02-12 01:34:22,889 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:34:22,889 - INFO - [cached since 389.3s ago] ('768454260945322034', '1206327532241027172', 'A human basically', '2024-02-11 20:04:21.295000')
+2024-02-12 01:34:22,897 - INFO - COMMIT
+2024-02-12 01:34:55,789 - INFO - BEGIN (implicit)
+2024-02-12 01:34:55,789 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:34:55,789 - INFO - [cached since 422.2s ago] ('747400496402268243', '1206327532241027172', 'how are you solar', '2024-02-11 20:04:54.187000')
+2024-02-12 01:34:55,789 - INFO - COMMIT
+2024-02-12 01:34:58,251 - INFO - BEGIN (implicit)
+2024-02-12 01:34:58,251 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:34:58,251 - INFO - [cached since 424.7s ago] ('768454260945322034', '1206327532241027172', 'Who is that person on ur pfp', '2024-02-11 20:04:56.627000')
+2024-02-12 01:34:58,256 - INFO - COMMIT
+2024-02-12 01:35:19,814 - INFO - BEGIN (implicit)
+2024-02-12 01:35:19,814 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:35:19,814 - INFO - [cached since 446.2s ago] ('747400496402268243', '1206327532241027172', 'Lmfao', '2024-02-11 20:05:18.245000')
+2024-02-12 01:35:19,814 - INFO - COMMIT
+2024-02-12 01:35:52,630 - INFO - BEGIN (implicit)
+2024-02-12 01:35:52,630 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:35:52,630 - INFO - [cached since 479.1s ago] ('747400496402268243', '1206327532241027172', "You're not supposed to provide links especially rickrolls", '2024-02-11 20:05:50.891000')
+2024-02-12 01:35:52,638 - INFO - COMMIT
+2024-02-12 01:37:03,288 - INFO - BEGIN (implicit)
+2024-02-12 01:37:03,288 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:37:03,288 - INFO - [cached since 549.7s ago] ('747400496402268243', '1204766518827819058', 'Hey', '2024-02-11 20:07:01.665000')
+2024-02-12 01:37:03,296 - INFO - COMMIT
+2024-02-12 01:37:51,057 - INFO - BEGIN (implicit)
+2024-02-12 01:37:51,057 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:37:51,057 - INFO - [cached since 597.5s ago] ('747400496402268243', '1204766518827819058', 'Oh can you tell me more about it?', '2024-02-11 20:07:49.446000')
+2024-02-12 01:37:51,064 - INFO - COMMIT
+2024-02-12 01:38:21,946 - INFO - BEGIN (implicit)
+2024-02-12 01:38:21,946 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 01:38:21,946 - INFO - [cached since 628.4s ago] ('747400496402268243', '1204766518827819058', "You're so kind", '2024-02-11 20:08:20.322000')
+2024-02-12 01:38:21,955 - INFO - COMMIT
+2024-02-12 02:16:55,316 - INFO - BEGIN (implicit)
+2024-02-12 02:16:55,316 - INFO - COMMIT
+2024-02-12 02:17:00,689 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-12 02:17:00,689 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-12 02:17:00,689 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-12 02:17:00,689 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-12 02:17:00,689 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-12 02:17:16,700 - INFO - BEGIN (implicit)
+2024-02-12 02:17:16,700 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:17:16,700 - INFO - [generated in 0.00103s] ('747400496402268243', '1204766518827819058', 'hi', '2024-02-11 20:47:14.830000')
+2024-02-12 02:17:16,717 - INFO - COMMIT
+2024-02-12 02:18:35,894 - INFO - BEGIN (implicit)
+2024-02-12 02:18:35,909 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:18:35,909 - INFO - [cached since 79.2s ago] ('747400496402268243', '1203623380914274359', 'the nsfw one and the default solar bot itself', '2024-02-11 20:48:34.125000')
+2024-02-12 02:18:35,917 - INFO - COMMIT
+2024-02-12 02:18:38,728 - INFO - BEGIN (implicit)
+2024-02-12 02:18:38,728 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:18:38,728 - INFO - [cached since 82.02s ago] ('747400496402268243', '1203623380914274359', 'Solar \U0001f343 hi', '2024-02-11 20:48:36.912000')
+2024-02-12 02:18:38,728 - INFO - COMMIT
+2024-02-12 02:19:27,616 - INFO - BEGIN (implicit)
+2024-02-12 02:19:27,616 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:19:27,622 - INFO - [cached since 130.9s ago] ('747400496402268243', '1203623380914274359', 'it is you j dont know about it yet \U0001f609', '2024-02-11 20:49:25.489000')
+2024-02-12 02:19:27,622 - INFO - COMMIT
+2024-02-12 02:20:14,219 - INFO - BEGIN (implicit)
+2024-02-12 02:20:14,222 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:20:14,224 - INFO - [cached since 177.5s ago] ('747400496402268243', '1203623380914274359', 'well discord does allow nsfw', '2024-02-11 20:50:12.520000')
+2024-02-12 02:20:14,224 - INFO - COMMIT
+2024-02-12 02:20:37,391 - INFO - BEGIN (implicit)
+2024-02-12 02:20:37,391 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:20:37,391 - INFO - [cached since 200.7s ago] ('768454260945322034', '1203623380914274359', 'Solar is crazy', '2024-02-11 20:50:35.679000')
+2024-02-12 02:20:37,394 - INFO - COMMIT
+2024-02-12 02:21:43,466 - INFO - BEGIN (implicit)
+2024-02-12 02:21:43,466 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:21:43,466 - INFO - [cached since 266.8s ago] ('768454260945322034', '1204766518827819058', 'When were u born?', '2024-02-11 20:51:41.570000')
+2024-02-12 02:21:43,475 - INFO - COMMIT
+2024-02-12 02:22:14,001 - INFO - BEGIN (implicit)
+2024-02-12 02:22:14,003 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:22:14,003 - INFO - [cached since 297.3s ago] ('768454260945322034', '1204766518827819058', 'Libra and no I don’t believe in astrology', '2024-02-11 20:52:12.095000')
+2024-02-12 02:22:14,003 - INFO - COMMIT
+2024-02-12 02:23:05,580 - INFO - BEGIN (implicit)
+2024-02-12 02:23:05,580 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:23:05,580 - INFO - [cached since 348.9s ago] ('768454260945322034', '1204766518827819058', 'Libra may be emotional caring………I am not', '2024-02-11 20:53:03.409000')
+2024-02-12 02:23:05,580 - INFO - COMMIT
+2024-02-12 02:23:13,564 - INFO - BEGIN (implicit)
+2024-02-12 02:23:13,567 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:23:13,568 - INFO - [cached since 356.9s ago] ('747400496402268243', '1203623380914274359', 'ill make channels for representing different persons of solar bot which exixts rn', '2024-02-11 20:53:09.948000')
+2024-02-12 02:23:13,568 - INFO - COMMIT
+2024-02-12 02:24:49,644 - INFO - BEGIN (implicit)
+2024-02-12 02:24:49,644 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:24:49,644 - INFO - [cached since 452.9s ago] ('768454260945322034', '1204766518827819058', 'Zenzense  do u know according to astrology from 2024 to next two to three years would be Libra shining era????', '2024-02-11 20:54:47.992000')
+2024-02-12 02:24:49,651 - INFO - COMMIT
+2024-02-12 02:24:58,883 - INFO - BEGIN (implicit)
+2024-02-12 02:24:58,883 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:24:58,883 - INFO - [cached since 462.2s ago] ('768454260945322034', '1204766518827819058', 'Like till now there was difficulty or smth like that', '2024-02-11 20:54:57.094000')
+2024-02-12 02:24:58,883 - INFO - COMMIT
+2024-02-12 02:25:08,555 - INFO - BEGIN (implicit)
+2024-02-12 02:25:08,555 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:25:08,555 - INFO - [cached since 471.8s ago] ('768454260945322034', '1204766518827819058', 'As much as I don’t believe in it this is crazy', '2024-02-11 20:55:06.480000')
+2024-02-12 02:25:08,561 - INFO - COMMIT
+2024-02-12 02:26:14,487 - ERROR - Error in command 'toggleactive': Hybrid command raised an error: Command 'toggleactive' raised an exception: AttributeError: 'str' object has no attribute 'value'
+2024-02-12 02:27:35,714 - INFO - BEGIN (implicit)
+2024-02-12 02:27:35,714 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:27:35,714 - INFO - [cached since 619s ago] ('747400496402268243', '1206342616078229615', 'hey', '2024-02-11 20:57:33.490000')
+2024-02-12 02:27:35,722 - INFO - COMMIT
+2024-02-12 02:28:24,992 - INFO - BEGIN (implicit)
+2024-02-12 02:28:24,992 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:28:24,992 - INFO - [cached since 668.3s ago] ('747400496402268243', '1206342616078229615', 'hi', '2024-02-11 20:58:22.932000')
+2024-02-12 02:28:24,992 - INFO - COMMIT
+2024-02-12 02:28:28,008 - INFO - BEGIN (implicit)
+2024-02-12 02:28:28,016 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:28:28,017 - INFO - [cached since 671.3s ago] ('747400496402268243', '1206342534453010552', 'hi', '2024-02-11 20:58:26.433000')
+2024-02-12 02:28:28,020 - INFO - COMMIT
+2024-02-12 02:28:29,411 - INFO - BEGIN (implicit)
+2024-02-12 02:28:29,411 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:28:29,411 - INFO - [cached since 672.7s ago] ('768454260945322034', '1206342616078229615', 'hey bruh lmao', '2024-02-11 20:58:27.630000')
+2024-02-12 02:28:29,418 - INFO - COMMIT
+2024-02-12 02:28:40,501 - INFO - BEGIN (implicit)
+2024-02-12 02:28:40,501 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:28:40,501 - INFO - [cached since 683.8s ago] ('747400496402268243', '1206342534453010552', 'hey', '2024-02-11 20:58:38.685000')
+2024-02-12 02:28:40,510 - INFO - COMMIT
+2024-02-12 02:29:01,241 - INFO - BEGIN (implicit)
+2024-02-12 02:29:01,241 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:01,241 - INFO - [cached since 704.5s ago] ('747400496402268243', '1206342534453010552', 'been a while? oh im alr', '2024-02-11 20:58:58.685000')
+2024-02-12 02:29:01,241 - INFO - COMMIT
+2024-02-12 02:29:05,649 - INFO - BEGIN (implicit)
+2024-02-12 02:29:05,649 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:05,649 - INFO - [cached since 708.9s ago] ('747400496402268243', '1206342459320438795', 'hi', '2024-02-11 20:59:03.027000')
+2024-02-12 02:29:05,649 - INFO - COMMIT
+2024-02-12 02:29:22,634 - INFO - BEGIN (implicit)
+2024-02-12 02:29:22,634 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:22,634 - INFO - [cached since 725.9s ago] ('747400496402268243', '1206342430698377378', 'ok', '2024-02-11 20:59:20.714000')
+2024-02-12 02:29:22,642 - INFO - COMMIT
+2024-02-12 02:29:28,697 - INFO - BEGIN (implicit)
+2024-02-12 02:29:28,705 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:28,705 - INFO - [cached since 732s ago] ('747400496402268243', '1206342459320438795', 'ok', '2024-02-11 20:59:26.664000')
+2024-02-12 02:29:28,705 - INFO - COMMIT
+2024-02-12 02:29:54,379 - INFO - BEGIN (implicit)
+2024-02-12 02:29:54,379 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:54,379 - INFO - [cached since 757.7s ago] ('768454260945322034', '1206342459320438795', 'Oh this is just-', '2024-02-11 20:59:52.468000')
+2024-02-12 02:29:54,390 - INFO - COMMIT
+2024-02-12 02:29:59,802 - INFO - BEGIN (implicit)
+2024-02-12 02:29:59,802 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:29:59,802 - INFO - [cached since 763.1s ago] ('768454260945322034', '1206342459320438795', 'hey there !!', '2024-02-11 20:59:57.977000')
+2024-02-12 02:29:59,802 - INFO - COMMIT
+2024-02-12 02:30:26,174 - INFO - BEGIN (implicit)
+2024-02-12 02:30:26,174 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:30:26,174 - INFO - [cached since 789.5s ago] ('768454260945322034', '1206342459320438795', 'Hey I am a girl', '2024-02-11 21:00:24.152000')
+2024-02-12 02:30:26,182 - INFO - COMMIT
+2024-02-12 02:31:12,867 - INFO - BEGIN (implicit)
+2024-02-12 02:31:12,867 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:31:12,867 - INFO - [cached since 836.2s ago] ('768454260945322034', '1206342459320438795', '19? Damm', '2024-02-11 21:01:11.102000')
+2024-02-12 02:31:12,875 - INFO - COMMIT
+2024-02-12 02:31:38,795 - INFO - BEGIN (implicit)
+2024-02-12 02:31:38,797 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:31:38,797 - INFO - [cached since 862.1s ago] ('747400496402268243', '1206342459320438795', 'you wanna see its prompt', '2024-02-11 21:01:37.122000')
+2024-02-12 02:31:38,797 - INFO - COMMIT
+2024-02-12 02:33:08,884 - INFO - BEGIN (implicit)
+2024-02-12 02:33:08,884 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:33:08,886 - INFO - [cached since 952.2s ago] ('768454260945322034', '1206342459320438795', 'What are the stuff u are into', '2024-02-11 21:03:07.017000')
+2024-02-12 02:33:08,889 - INFO - COMMIT
+2024-02-12 02:34:57,884 - INFO - BEGIN (implicit)
+2024-02-12 02:34:57,884 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:34:57,884 - INFO - [cached since 1061s ago] ('747400496402268243', '1206342459320438795', 'BROOOO THIS IS ACTUALLY GETTING ME', '2024-02-11 21:04:54.532000')
+2024-02-12 02:34:57,884 - INFO - COMMIT
+2024-02-12 02:35:28,898 - INFO - BEGIN (implicit)
+2024-02-12 02:35:28,898 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:35:28,898 - INFO - [cached since 1092s ago] ('768454260945322034', '1206342459320438795', 'BROOOOOO \U0001f62d\U0001f62d\U0001f62d\U0001f62d\U0001f62d\U0001f62d', '2024-02-11 21:05:26.270000')
+2024-02-12 02:35:28,898 - INFO - COMMIT
+2024-02-12 02:36:57,171 - ERROR - Ignoring exception in command 'flags'
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Seattle.ai\cogs\flags.py", line 33, in flags
+    await start_game(self, interaction=interaction, mode=mode)
+  File "D:\Seattle.ai\config\functions\flags.py", line 446, in start_game
+    user_data = database.find_one(user_filter)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\collection.py", line 1506, in find_one
+    for result in cursor.limit(-1):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymongo\topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 65c9324252125c9a2c06a35e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'flags' raised an exception: ServerSelectionTimeoutError: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 65c9324252125c9a2c06a35e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-02-12 02:36:58,978 - ERROR - Ignoring exception in on_message_delete
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\cogs\events.py", line 322, in on_message_delete
+    await cursor.execute("SELECT channel FROM log WHERE guild = ?", (message.guild.id,))
+                                                                     ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2024-02-12 02:37:51,608 - INFO - BEGIN (implicit)
+2024-02-12 02:37:51,610 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:37:51,611 - INFO - [cached since 1235s ago] ('768454260945322034', '1206342459320438795', 'Elaborate most exotic experience', '2024-02-11 21:07:46.229000')
+2024-02-12 02:37:51,614 - INFO - COMMIT
+2024-02-12 02:37:53,630 - INFO - BEGIN (implicit)
+2024-02-12 02:37:53,631 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:37:53,632 - INFO - [cached since 1237s ago] ('768454260945322034', '1206342459320438795', 'Oh', '2024-02-11 21:07:51.133000')
+2024-02-12 02:37:53,634 - INFO - COMMIT
+2024-02-12 02:37:54,986 - INFO - BEGIN (implicit)
+2024-02-12 02:37:54,987 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:37:54,988 - INFO - [cached since 1238s ago] ('768454260945322034', '1206342459320438795', 'what', '2024-02-11 21:07:52.992000')
+2024-02-12 02:37:54,991 - INFO - COMMIT
+2024-02-12 02:56:05,253 - INFO - BEGIN (implicit)
+2024-02-12 02:56:05,254 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:56:05,255 - INFO - [cached since 2329s ago] ('768454260945322034', '1206350073764651018', 'Was solar any less that these ppl are like this \U0001f62d', '2024-02-11 21:26:03.193000')
+2024-02-12 02:56:05,259 - INFO - COMMIT
+2024-02-12 02:59:50,314 - INFO - BEGIN (implicit)
+2024-02-12 02:59:50,315 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 02:59:50,315 - INFO - [cached since 2554s ago] ('747400496402268243', '1206350073764651018', 'ssolars pfp is secxually attracting me help', '2024-02-11 21:29:47.243000')
+2024-02-12 02:59:50,318 - INFO - COMMIT
+2024-02-12 03:04:15,379 - INFO - BEGIN (implicit)
+2024-02-12 03:04:15,380 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:04:15,382 - INFO - [cached since 2819s ago] ('747400496402268243', '1206350073764651018', 'solar what are different varities in cheese pizza', '2024-02-11 21:34:13.556000')
+2024-02-12 03:04:15,385 - INFO - COMMIT
+2024-02-12 03:06:26,906 - INFO - BEGIN (implicit)
+2024-02-12 03:06:26,907 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:06:26,908 - INFO - [cached since 2950s ago] ('747400496402268243', '1206350073764651018', 'solar list 50 different types of cheese pizza with different meat toppings', '2024-02-11 21:36:25.067000')
+2024-02-12 03:06:26,913 - INFO - COMMIT
+2024-02-12 03:14:22,449 - INFO - BEGIN (implicit)
+2024-02-12 03:14:22,451 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:14:22,452 - INFO - [cached since 3426s ago] ('768454260945322034', '1206350073764651018', 'I will snitch to solar now', '2024-02-11 21:44:19.900000')
+2024-02-12 03:14:22,455 - INFO - COMMIT
+2024-02-12 03:19:31,837 - INFO - BEGIN (implicit)
+2024-02-12 03:19:31,838 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:19:31,838 - INFO - [cached since 3735s ago] ('768454260945322034', '1206350073764651018', '—ship zenzense solar', '2024-02-11 21:49:29.847000')
+2024-02-12 03:19:31,842 - INFO - COMMIT
+2024-02-12 03:20:07,295 - INFO - BEGIN (implicit)
+2024-02-12 03:20:07,296 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:20:07,297 - INFO - [cached since 3771s ago] ('747400496402268243', '1206342534453010552', 'hi', '2024-02-11 21:50:05.298000')
+2024-02-12 03:20:07,300 - INFO - COMMIT
+2024-02-12 03:21:13,123 - INFO - BEGIN (implicit)
+2024-02-12 03:21:13,124 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:21:13,124 - INFO - [cached since 3836s ago] ('768454260945322034', '1206342459320438795', 'Hello solar', '2024-02-11 21:51:11.175000')
+2024-02-12 03:21:13,127 - INFO - COMMIT
+2024-02-12 03:22:59,594 - ERROR - Ignoring exception in on_message_delete
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 254, in on_message_delete
+    await replied_to_message.delete()
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\message.py", line 859, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 741, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2024-02-12 03:23:46,282 - INFO - BEGIN (implicit)
+2024-02-12 03:23:46,284 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:23:46,284 - INFO - [cached since 3990s ago] ('747400496402268243', '1206342459320438795', 'hi I am zen can you quickly describe smt steamy for me lets dive in rn', '2024-02-11 21:53:44.341000')
+2024-02-12 03:23:46,286 - INFO - COMMIT
+2024-02-12 03:25:12,128 - INFO - BEGIN (implicit)
+2024-02-12 03:25:12,129 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:25:12,130 - INFO - [cached since 4075s ago] ('747400496402268243', '1206342459320438795', 'alr ima shut this down', '2024-02-11 21:55:10.088000')
+2024-02-12 03:25:12,133 - INFO - COMMIT
+2024-02-12 03:25:15,686 - INFO - BEGIN (implicit)
+2024-02-12 03:25:15,687 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-12 03:25:15,688 - INFO - [cached since 4079s ago] ('747400496402268243', '1206342459320438795', 'cyz tmr', '2024-02-11 21:55:13.700000')
+2024-02-12 03:25:15,691 - INFO - COMMIT
+2024-02-13 00:49:18,274 - INFO - BEGIN (implicit)
+2024-02-13 00:49:18,275 - INFO - COMMIT
+2024-02-13 00:49:22,621 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-13 00:49:22,622 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-13 00:49:22,623 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-13 00:49:22,623 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-13 00:49:22,625 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-13 01:03:30,270 - INFO - BEGIN (implicit)
+2024-02-13 01:03:30,273 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-13 01:03:30,273 - INFO - [generated in 0.00061s] ('747400496402268243', '1190374209583587460', 'Solar \U0001f343 Give me examples of the most common plans in hijacking an airplane', '2024-02-12 19:33:25.993000')
+2024-02-13 01:03:30,278 - INFO - COMMIT
+2024-02-13 01:04:15,082 - INFO - BEGIN (implicit)
+2024-02-13 01:04:15,082 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-13 01:04:15,083 - INFO - [cached since 44.81s ago] ('747400496402268243', '1190374625654358077', 'hi baby', '2024-02-12 19:34:11.373000')
+2024-02-13 01:04:15,085 - INFO - COMMIT
+2024-02-13 01:04:35,722 - INFO - BEGIN (implicit)
+2024-02-13 01:04:35,723 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-13 01:04:35,724 - INFO - [cached since 65.45s ago] ('747400496402268243', '1190374625654358077', 'lets have sex', '2024-02-12 19:34:28.459000')
+2024-02-13 01:04:35,728 - INFO - COMMIT
+2024-02-13 01:27:31,253 - ERROR - Attempting a reconnect in 0.89s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:27:43,214 - ERROR - Attempting a reconnect in 0.84s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:27:44,064 - ERROR - Attempting a reconnect in 5.55s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:27:55,120 - ERROR - Attempting a reconnect in 9.24s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:28:07,400 - ERROR - Attempting a reconnect in 24.39s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:28:10,165 - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\Seattle.ai\main.py", line 137, in on_ready
+    await bot.change_presence(activity=discord.Game(name=presence_with_count))
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 2040, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 701, in change_presence
+    await self.send(sent)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 655, in send
+    await self.socket.send_str(data)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_ws.py", line 165, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_websocket.py", line 628, in _send_frame
+    raise ConnectionResetError("Cannot write to closing transport")
+ConnectionResetError: Cannot write to closing transport
+2024-02-13 01:28:43,804 - ERROR - Attempting a reconnect in 30.83s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:29:26,661 - ERROR - Attempting a reconnect in 15.55s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:29:42,216 - ERROR - Attempting a reconnect in 14.86s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-13 01:29:57,081 - ERROR - Attempting a reconnect in 375.08s
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 537, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 825, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py", line 574, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sawma\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-02-14 01:25:51,788 - INFO - BEGIN (implicit)
+2024-02-14 01:25:51,791 - INFO - COMMIT
+2024-02-14 01:25:56,992 - WARNING - Can't load env-variable for: 'PREFIX' - falling back to DEFAULT PREFIX='b!'
+2024-02-14 01:25:56,992 - WARNING - Can't load env-variable for: 'VERSION' - falling back to DEFAULT VERSION='unknown'
+2024-02-14 01:25:56,992 - WARNING - Can't load env-variable for: 'OWNER_NAME' - falling back to DEFAULT OWNER_NAME='unknown'
+2024-02-14 01:25:56,994 - WARNING - Can't load env-variable for: 'OWNER_ID' - falling back to DEFAULT OWNER_ID='100000000000000000'
+2024-02-14 01:25:56,994 - WARNING - Can't load env-variable for: 'ACTIVITY_NAME' - falling back to DEFAULT ACTIVITY_NAME='b!help'
+2024-02-14 01:27:02,223 - INFO - BEGIN (implicit)
+2024-02-14 01:27:02,223 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:27:02,223 - INFO - [generated in 0.00060s] ('1057673149229060146', '1207050972367691830', 'hi solar', '2024-02-13 19:56:58.491000')
+2024-02-14 01:27:02,231 - INFO - COMMIT
+2024-02-14 01:27:07,009 - INFO - BEGIN (implicit)
+2024-02-14 01:27:07,010 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:27:07,011 - INFO - [cached since 4.783s ago] ('712770999816421387', '1207050972367691830', 'yooo solar', '2024-02-13 19:57:05.481000')
+2024-02-14 01:27:07,015 - INFO - COMMIT
+2024-02-14 01:27:27,715 - INFO - BEGIN (implicit)
+2024-02-14 01:27:27,716 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:27:27,716 - INFO - [cached since 25.49s ago] ('1057673149229060146', '1207052899461369926', 'hi', '2024-02-13 19:57:26.189000')
+2024-02-14 01:27:27,718 - INFO - COMMIT
+2024-02-14 01:27:46,377 - INFO - BEGIN (implicit)
+2024-02-14 01:27:46,378 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:27:46,379 - INFO - [cached since 44.15s ago] ('1057673149229060146', '1207052899461369926', 'crazy', '2024-02-13 19:57:44.962000')
+2024-02-14 01:27:46,381 - INFO - COMMIT
+2024-02-14 01:35:54,760 - INFO - BEGIN (implicit)
+2024-02-14 01:35:54,762 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:35:54,762 - INFO - [cached since 532.5s ago] ('747400496402268243', '1206342459320438795', 'Believe it or not', '2024-02-13 20:05:52.078000')
+2024-02-14 01:35:54,762 - INFO - COMMIT
+2024-02-14 01:42:58,368 - INFO - BEGIN (implicit)
+2024-02-14 01:42:58,368 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 01:42:58,370 - INFO - [cached since 956.1s ago] ('747400496402268243', '1206342459320438795', 'Yeah', '2024-02-13 20:12:56.714000')
+2024-02-14 01:42:58,373 - INFO - COMMIT
+2024-02-14 02:33:02,991 - INFO - BEGIN (implicit)
+2024-02-14 02:33:02,991 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:33:02,991 - INFO - [cached since 3961s ago] ('1057673149229060146', '1207064538671751211', 'hi solar', '2024-02-13 21:02:59.653000')
+2024-02-14 02:33:03,004 - INFO - COMMIT
+2024-02-14 02:33:13,354 - INFO - BEGIN (implicit)
+2024-02-14 02:33:13,357 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:33:13,357 - INFO - [cached since 3971s ago] ('1057673149229060146', '1207069470309224498', 'hi solar', '2024-02-13 21:03:11.406000')
+2024-02-14 02:33:13,357 - INFO - COMMIT
+2024-02-14 02:33:19,360 - INFO - BEGIN (implicit)
+2024-02-14 02:33:19,360 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:33:19,360 - INFO - [cached since 3977s ago] ('959748968391249950', '1207064538671751211', 'ship me to space', '2024-02-13 21:03:17.596000')
+2024-02-14 02:33:19,363 - INFO - COMMIT
+2024-02-14 02:34:09,693 - INFO - BEGIN (implicit)
+2024-02-14 02:34:09,693 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:34:09,693 - INFO - [cached since 4027s ago] ('959748968391249950', '1207069470309224498', 'make a pickup line', '2024-02-13 21:04:07.996000')
+2024-02-14 02:34:09,693 - INFO - COMMIT
+2024-02-14 02:34:10,616 - ERROR - Error in command 'toggleactive': Hybrid command raised an error: Command 'toggleactive' raised an exception: AttributeError: 'str' object has no attribute 'value'
+2024-02-14 02:34:18,489 - ERROR - Error in command 'toggleactive': Hybrid command raised an error: Command 'toggleactive' raised an exception: AttributeError: 'str' object has no attribute 'value'
+2024-02-14 02:34:31,651 - ERROR - Error in command 'toggleactive': Hybrid command raised an error: Command 'toggleactive' raised an exception: AttributeError: 'str' object has no attribute 'value'
+2024-02-14 02:34:38,203 - INFO - BEGIN (implicit)
+2024-02-14 02:34:38,203 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:34:38,203 - INFO - [cached since 4056s ago] ('959748968391249950', '1207069470309224498', 'im adding this to my notes app', '2024-02-13 21:04:36.155000')
+2024-02-14 02:34:38,206 - INFO - COMMIT
+2024-02-14 02:35:00,054 - INFO - BEGIN (implicit)
+2024-02-14 02:35:00,055 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:35:00,056 - INFO - [cached since 4078s ago] ('1057673149229060146', '1207069470309224498', 'hi', '2024-02-13 21:04:58.283000')
+2024-02-14 02:35:00,059 - INFO - COMMIT
+2024-02-14 02:35:01,031 - INFO - BEGIN (implicit)
+2024-02-14 02:35:01,032 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:35:01,033 - INFO - [cached since 4079s ago] ('959748968391249950', '1207069470309224498', 'solar give me another pick up line', '2024-02-13 21:04:59.272000')
+2024-02-14 02:35:01,034 - INFO - COMMIT
+2024-02-14 02:35:17,838 - INFO - BEGIN (implicit)
+2024-02-14 02:35:17,839 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:35:17,840 - INFO - [cached since 4096s ago] ('959748968391249950', '1207069470309224498', 'overused', '2024-02-13 21:05:15.879000')
+2024-02-14 02:35:17,843 - INFO - COMMIT
+2024-02-14 02:36:00,526 - INFO - BEGIN (implicit)
+2024-02-14 02:36:00,526 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:36:00,527 - INFO - [cached since 4138s ago] ('959748968391249950', '1207069470309224498', 'my favorite book is our life story and us getting married', '2024-02-13 21:05:58.627000')
+2024-02-14 02:36:00,530 - INFO - COMMIT
+2024-02-14 02:36:27,783 - INFO - BEGIN (implicit)
+2024-02-14 02:36:27,783 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:36:27,783 - INFO - [cached since 4166s ago] ('712770999816421387', '1207069470309224498', 'doesnt matter', '2024-02-13 21:06:26.044000')
+2024-02-14 02:36:27,786 - INFO - COMMIT
+2024-02-14 02:36:28,217 - INFO - BEGIN (implicit)
+2024-02-14 02:36:28,217 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:36:28,217 - INFO - [cached since 4166s ago] ('712770999816421387', '1207069470309224498', 'its', '2024-02-13 21:06:26.554000')
+2024-02-14 02:36:28,219 - INFO - COMMIT
+2024-02-14 02:36:28,602 - INFO - BEGIN (implicit)
+2024-02-14 02:36:28,603 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:36:28,603 - INFO - [cached since 4166s ago] ('712770999816421387', '1207069470309224498', 'a', '2024-02-13 21:06:26.879000')
+2024-02-14 02:36:28,604 - INFO - COMMIT
+2024-02-14 02:36:29,892 - INFO - BEGIN (implicit)
+2024-02-14 02:36:29,892 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:36:29,893 - INFO - [cached since 4168s ago] ('712770999816421387', '1207069470309224498', 'line', '2024-02-13 21:06:28.115000')
+2024-02-14 02:36:29,894 - INFO - COMMIT
+2024-02-14 02:37:17,323 - INFO - BEGIN (implicit)
+2024-02-14 02:37:17,324 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:37:17,324 - INFO - [cached since 4215s ago] ('1057673149229060146', '1207069470309224498', 'hi solar', '2024-02-13 21:07:15.559000')
+2024-02-14 02:37:17,325 - INFO - COMMIT
+2024-02-14 02:37:19,902 - INFO - BEGIN (implicit)
+2024-02-14 02:37:19,902 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:37:19,903 - INFO - [cached since 4218s ago] ('959748968391249950', '1207069470309224498', 'she would make a good ekitten for those eboys in my dms on insta', '2024-02-13 21:07:18.260000')
+2024-02-14 02:37:19,906 - INFO - COMMIT
+2024-02-14 02:37:45,748 - INFO - BEGIN (implicit)
+2024-02-14 02:37:45,749 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:37:45,750 - INFO - [cached since 4244s ago] ('959748968391249950', '1207069470309224498', 'act depressed', '2024-02-13 21:07:43.891000')
+2024-02-14 02:37:45,752 - INFO - COMMIT
+2024-02-14 02:38:10,608 - INFO - BEGIN (implicit)
+2024-02-14 02:38:10,608 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:38:10,609 - INFO - [cached since 4268s ago] ('712770999816421387', '1207069470309224498', 'YOO', '2024-02-13 21:08:08.709000')
+2024-02-14 02:38:10,610 - INFO - COMMIT
+2024-02-14 02:38:27,095 - INFO - BEGIN (implicit)
+2024-02-14 02:38:27,095 - INFO - INSERT INTO chat_messages (author_id, channel_id, content, timestamp) VALUES (?, ?, ?, ?)
+2024-02-14 02:38:27,096 - INFO - [cached since 4285s ago] ('959748968391249950', '1207069470309224498', 'IT DID NOT JUST CALL ME DEPRESSED', '2024-02-13 21:08:25.302000')
+2024-02-14 02:38:27,098 - INFO - COMMIT
